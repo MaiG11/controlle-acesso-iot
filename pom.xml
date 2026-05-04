@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.14</version>
+		<version>3.2.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.controlleacessoiot</groupId>
 	<artifactId>controlle-acesso-iot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>controlle-acesso-iot</name>
-	<description/>
+	<description>Sistema de controle de acesso IoT com Spring Boot e ESP32</description>
 	<url/>
 	<licenses>
 		<license/>
