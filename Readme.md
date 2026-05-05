@@ -2,7 +2,7 @@
 
 ### 🖥️ Interface Web (Thymeleaf)
 ![Interface do Sistema](images/frontend.png)
-*Figura 1: Painel de controle responsivo com status em tempo real.*
+*Figura : Painel de controle responsivo com status em tempo real.*
 
 > Backend Spring Boot + Frontend Thymeleaf + ESP32 (Wokwi) + Cloudflare Tunnel
 
@@ -106,7 +106,7 @@ Todos os endpoints retornam `application/json`.
 
 ###  Simulação IoT (Wokwi)
 ![Simulação ESP32](images/wokwi.png)
-*Figura 2: Circuito com ESP32, botões e LEDs integrado à API.*
+*Figura : Circuito com ESP32, botões e LEDs integrado à API.*
 
 💡 Cenários de Teste
 Fluxo Normal: 0/5 → Entrada → 1/5 → Entrada → ... → 5/5 🔴 → Entrada bloqueada
