@@ -1,5 +1,9 @@
 # 🚪 Sistema de Controle de Acesso IoT
 
+### 🖥️ Interface Web (Thymeleaf)
+![Interface do Sistema](images/frontend.png)
+*Figura 1: Painel de controle responsivo com status em tempo real.*
+
 > Backend Spring Boot + Frontend Thymeleaf + ESP32 (Wokwi) + Cloudflare Tunnel
 
 ## 📖 Sobre o Projeto
@@ -100,7 +104,9 @@ Todos os endpoints retornam `application/json`.
 | LED Vermelho | `GPIO 15` | Resistor 220Ω em série (Ânodo → GPIO) |
 | GND | Comum | Terra compartilhado entre botões e LEDs |
 
-Importante: O pino GPIO 15 foi escolhido para o LED vermelho para evitar conflito com o boot/strapping do ESP32. A polaridade do LED deve respeitar: Perna maior (+) → Resistor → GPIO | Perna menor (-) → GND.
+###  Simulação IoT (Wokwi)
+![Simulação ESP32](images/wokwi.png)
+*Figura 2: Circuito com ESP32, botões e LEDs integrado à API.*
 
 💡 Cenários de Teste
 Fluxo Normal: 0/5 → Entrada → 1/5 → Entrada → ... → 5/5 🔴 → Entrada bloqueada
