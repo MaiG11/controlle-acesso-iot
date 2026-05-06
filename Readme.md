@@ -89,7 +89,7 @@ Todos os endpoints retornam `application/json`.
 | `POST` | `/api/reset` | Zera contador e restaura padrão | - |
 
 **Exemplo de Resposta JSON:**
-```json
+
 {
   "quantidadeDePessoasPresentes": 3,
   "limiteMaximoPermitido": 5,
