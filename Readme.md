@@ -61,8 +61,11 @@ Atualização a cada 5s Porta 8080 + Tomcat Embarcado GPIOs: Botões + LEDs
 - Git
 - Conta no Wokwi
 
+
+
 ### 2. Subir o Backend
-```bash
+
+
 git clone https://github.com/MaiG11/controlle-acesso-iot.git
 cd controlle-acesso-iot
 mvn spring-boot:run
